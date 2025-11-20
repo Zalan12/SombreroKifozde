@@ -1,0 +1,7 @@
+C:\Users\rekdavid\source\repos\Sombrero kifőzde\Sombrero kifőzde\bin\Debug\Sombrero kifőzde.exe.config
+C:\Users\rekdavid\source\repos\Sombrero kifőzde\Sombrero kifőzde\bin\Debug\Sombrero kifőzde.exe
+C:\Users\rekdavid\source\repos\Sombrero kifőzde\Sombrero kifőzde\bin\Debug\Sombrero kifőzde.pdb
+C:\Users\rekdavid\source\repos\Sombrero kifőzde\Sombrero kifőzde\obj\Debug\Sombrero kifőzde.csproj.AssemblyReference.cache
+C:\Users\rekdavid\source\repos\Sombrero kifőzde\Sombrero kifőzde\obj\Debug\Sombrero kifőzde.csproj.CoreCompileInputs.cache
+C:\Users\rekdavid\source\repos\Sombrero kifőzde\Sombrero kifőzde\obj\Debug\Sombrero kifőzde.exe
+C:\Users\rekdavid\source\repos\Sombrero kifőzde\Sombrero kifőzde\obj\Debug\Sombrero kifőzde.pdb
