@@ -1,0 +1,16 @@
+Név;Ár;Alkoholtartalom;Szénsavtartalom
+Coca-Cola;450;0%;szénsavas
+Fanta Narancs;450;0%;szénsavas
+Sprite;450;0%;szénsavas
+Borsodi Sör;600;4,6%;szénsavas
+Heineken Sör;650;5%;szénsavas
+Aperol Spritz;1200;11%;enyhén szénsavas
+Tequila Sunrise;1300;12%;mentes
+Mojito;1400;10%;szénsavas
+Fehérbor (Chardonnay);1100;12%;mentes
+Pálinka (Alma);900;40%;mentes
+Almalé rostos;500;0%;mentes
+Narancslé rostos;500;0%;mentes
+Gyümölcsmix smoothie;650;0%;mentes
+Mangó-lime ital;550;0%;mentes
+Áfonyás-málnás ital;600;0%;mentes
