@@ -9,7 +9,7 @@ namespace Sombrero_kifőzde
     public class Husmentes : Etel
     {
         public string Hus { get; set; }
-        public Husmentes(string nev, string tortilla, int ar, string hus) : base(nev, tortilla, ar)
+        public Husmentes(string nev, string tortilla, int ar, string hus, string osszetevok) : base(nev, tortilla, ar, osszetevok)
         {
             Hus = hus;
         }

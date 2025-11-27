@@ -11,13 +11,15 @@ namespace Sombrero_kifőzde
         public string Nev { get; set; }
         public string Tortilla {  get; set; }
 
+        public string Osszetevok { get; set; }
         public int Ar {  get; set; }
 
-        protected Etel(string nev, string tortilla, int ar)
+        protected Etel(string nev, string tortilla, int ar, string osszetevok)
         {
             Nev = nev;
             Tortilla = tortilla;
             Ar = ar;
+            Osszetevok = osszetevok;
         }
 
         public abstract string ToString();

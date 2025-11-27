@@ -12,6 +12,7 @@ namespace Sombrero_kifőzde
     {
         static public double Budzse = 0;
         static List<Etel> etelLista = new List<Etel>();
+        static List<Int32> rendeltLista = new List<Int32>();
         static void Main(string[] args)
         {
 
@@ -63,8 +64,19 @@ namespace Sombrero_kifőzde
                 PenzKiiras(Budzse);
                 Szunet(2);
                 Console.Write("\nKérlek írd ide a választott étel ID-jét ~ ------------> [");
-                Console.Read();
+                string[] rendelesek=Console.ReadLine().Split(',');
+                for (int i = 0; i < rendelesek.Length; i++)
+                {
+                    rendeltLista.Add(Convert.ToInt32(rendelesek[i]));
+                }
+                Console.WriteLine("\nAz általad rendelt ételek:\n");
+                for (int i = 0; i < rendeltLista.Count; i++)
+                {
+                   
+                    Console.WriteLine(etelLista[rendeltLista[i]].ToString());
+                }
                
+
             }
             catch (Exception ex)
             {
@@ -87,17 +99,17 @@ namespace Sombrero_kifőzde
                         string[] etel = etlap[i].Split(';');
                         if (etel[1] == "csirke") 
                         {
-                            CsirkesEtel csirkesEtel = new CsirkesEtel(etel[0], etel[3], Convert.ToInt32(etel[2]), etel[1]);
+                            CsirkesEtel csirkesEtel = new CsirkesEtel(etel[0], etel[3], Convert.ToInt32(etel[2]), etel[1], etel[4]);
                             etelLista.Add(csirkesEtel);
                         }
                         else if (etel[1] == "disznó")
                         {
-                            DisznosEtel disznoEtel = new DisznosEtel(etel[0], etel[3], Convert.ToInt32(etel[2]), etel[1]);
+                            DisznosEtel disznoEtel = new DisznosEtel(etel[0], etel[3], Convert.ToInt32(etel[2]), etel[1], etel[4]);
                             etelLista.Add(disznoEtel);
                         }
                         else if (etel[1] == "Húsmentes")
                         {
-                            Husmentes HmentesEtel = new Husmentes(etel[0], etel[3], Convert.ToInt32(etel[2]),etel[1]);
+                            Husmentes HmentesEtel = new Husmentes(etel[0], etel[3], Convert.ToInt32(etel[2]),etel[1], etel[4]);
                             etelLista.Add (HmentesEtel);
                         }
                         else
